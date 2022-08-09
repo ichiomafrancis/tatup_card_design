@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>tatup voucher</title>
   </head>
 
@@ -13,21 +19,28 @@
       <!-- Tatup 1 card -->
       <p class="label">tatup1</p>
       <div class="tatup1-card">
-        <img
-          class="tatup1-img-1"
-          src="images/polygon.svg"
-          alt="logo of Tatup company"
-        />
-        <h3>TATUP International Services Limited</h3>
-        <p>Cash Deposit Card</p>
-        <p>N100</p>
-        <div class="contact">
-          <object
-            class="tatup1-img-2"
-            data="images/Vector.svg"
-            type=""
-          ></object>
-          <p>0809 558 8700</p>
+        <div class="tatup1-container">
+          <div class="tatup1-img-header">
+            <img
+              class="tatup1-img-1"
+              src="images/polygon.svg"
+              alt="logo of Tatup company"
+            />
+            <h4>TATUP International Services Limited</h4>
+          </div>
+
+          <div class="tatup1-info">
+            <p class="tatup1-title">Cash Deposit Card</p>
+            <h1 class="tatup1-amount">N100</h1>
+          </div>
+          <div class="contact">
+            <object
+              class="tatup1-img-2"
+              data="images/Vector.svg"
+              type=""
+            ></object>
+            <p>0809 558 8700</p>
+          </div>
         </div>
 
         <footer>https://tatup-cashtoken.com</footer>
@@ -60,15 +73,14 @@
           <p class="instruction-header">Instruction for usage:</p>
           <p><strong>Dial *347312#</strong> and follow instructions.</p>
           <p>Enter the <strong>Token Pin</strong> and send.</p>
-          <p class="amount">N1000</p>
+          <p class="amount tatup2-amount">N1000</p>
           <hr />
           <div class="batch">
             <div class="batch-info">
               <p>Pieces No:12063</p>
               <p>Batch No: 20563882</p>
             </div>
-
-            <img src="images/Rectangle 6.svg" alt="barcode" />
+            <img class="barcode" src="images/Rectangle 6.svg" alt="barcode" />
           </div>
           <hr />
         </div>

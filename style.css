@@ -6,20 +6,89 @@
 
 body {
   background-color: #e5e5e5;
-  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .container {
   width: 471px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
+.label {
+  color: #aaa;
+}
+
+/* Tatup 1 */
 .tatup1-card {
   background-color: #fcebeb;
   margin-bottom: 50px;
   height: 258px;
+  box-shadow: 0 5px 10px #555;
 }
 
+.tatup1-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 25px 10px 10px 5px;
+  position: relative;
+}
+
+.tatup1-img-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.tatup1-img-1 {
+  width: 162.5px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.tatup1-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  gap: 50px;
+}
+
+.tatup1-title {
+  color: #ff4848;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+}
+
+.tatup1-amount {
+  color: #ff4848;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+}
+
+footer {
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+  background-color: #ff1515;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Tatup 2 */
 .tatup2-card {
   background-color: #fff;
   height: 258px;
@@ -31,10 +100,13 @@ body {
 }
 
 .pin-area {
+  width: 382px;
+  height: 59px;
   background-image: url(images/rectangle3.jpg);
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 5px;
 }
 
 .pin-img {
@@ -62,6 +134,7 @@ body {
 
 .instruction {
   text-align: center;
+  font-size: 18px;
 }
 
 .instruction-header {
@@ -70,7 +143,7 @@ body {
 }
 
 .amount {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -86,4 +159,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-weight: 400;
+}
+
+.barcode {
+  margin-bottom: 5px;
 }
