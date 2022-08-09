@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  line-height: 1.2;
+}
+
+.container {
+  width: 471px;
+  margin: 50px auto;
+}
+
+.tatup1-card {
+  background-color: #fcebeb;
+  margin-bottom: 50px;
+  height: 258px;
+}
+
+.tatup2-card {
+  background-color: #fff;
+  height: 258px;
+}
+
+.header-img {
+  display: flex;
+  padding: 10px 20px 5px 20px;
+}
+
+.pin-area {
+  background-image: url(images/rectangle3.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pin-img {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0 30px;
+  gap: 5px;
+}
+
+.pin {
+  color: #fff;
+}
+
+.tatup2-img-1 {
+  width: 250px;
+  height: 40px;
+}
+
+.tatup2-img-2 {
+  width: 59px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.instruction {
+  text-align: center;
+}
+
+.instruction-header {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.batch {
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.batch-info {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
